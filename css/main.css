@@ -1,0 +1,44 @@
+:root{
+    --main-color:#394B6C;
+    --second-color:#2a81ea;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    scroll-behavior: smooth;
+}
+nav{
+    margin: 2% 0;
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+}
+nav .container .logo h2 img{
+    height: 5vh;
+}
+nav .container .menu{
+    display: flex;
+    justify-content: space-between;
+    width:66%;
+    list-style: none;
+}
+nav .container .menu li a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+nav .container .menu li a.active{
+   color:var(--second-color);
+}
+nav .container .menu li .do-and-dont{
+    background-color: var(--second-color);
+    border:1px solid var(--second-color);
+    height: 7vh;
+    border-radius: 6px;
+}
+.slider .image img{
+    height: 75vh;
+}
